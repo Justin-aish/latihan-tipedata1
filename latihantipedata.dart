@@ -60,17 +60,24 @@ void main() {
   // ];
   // print(pasar[0]['nama']);
 
-  List pasar = [];
-  Map data1 = {"nama": "cabe", "harga": 10000, "Stok": 30};
-  Map data2 = {"nama": "Kopi A", "harga": 300000, "Stok": 100};
-  Map data3 = {"nama": "gula", "harga": 20000, "Stok": 10};
-  Map data4 = {"nama": "bawang", "harga": 100000, "Stok": 10};
-  Map data5 = {"nama": "bubuk teh", "harga": 15000, "Stok": 200};
-  pasar.add(data1);
-  pasar.add(data2);
-  pasar.add(data3);
-  pasar.add(data4);
-  pasar.add(data5);
-  print(pasar[0]['nama']);
+  // List pasar = [];
+  // Map data1 = {"nama": "cabe", "harga": 10000, "Stok": 30};
+  // Map data2 = {"nama": "Kopi A", "harga": 300000, "Stok": 100};
+  // Map data3 = {"nama": "gula", "harga": 20000, "Stok": 10};
+  // Map data4 = {"nama": "bawang", "harga": 100000, "Stok": 10};
+  // Map data5 = {"nama": "bubuk teh", "harga": 15000, "Stok": 200};
+  // pasar.add(data1);
+  // pasar.add(data2);
+  // pasar.add(data3);
+  // pasar.add(data4);
+  // pasar.add(data5);
+  // print(pasar[0]['nama']);
 
+  // final String nama;
+  // nama = "Deka";
+  // nama = 'SIndy';
+
+//   const String nama = 'Sindy';
+//   nama = 'Deka';
+// persamaan final dan const hanya bisa diset satu kali
 }
