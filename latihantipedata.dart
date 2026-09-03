@@ -26,9 +26,51 @@ void main() {
 
 //array => dart = list, set, map
 
-  List<dynamic> mhs = ['Deny', 'Arkan', 'Çindy', 100, true, 20.5];
-  List<String> mhs1 = ['Deny', 'Arkan', 'Çindy', 'Windy', 'Jenny'];
-  print("Nama saya ${mhs[2]}");
-  List data = ['Deny', 30, 'Sistem Infornmasi'];
-  print("Nama saya ${data[0]} , umur ${data[1]}, prodi ${data[2]}");
+  // List<dynamic> mhs = ['Deny', 'Arkan', 'Çindy', 100, true, 20.5];
+  // List<String> mhs1 = ['Deny', 'Arkan', 'Çindy', 'Windy', 'Jenny'];
+  // print("Nama saya ${mhs[2]}");
+  // List data = [];
+
+  // data.add("Merry");
+  // data.add(100);
+  // data.add('Sistem Informasi');
+  // print(data);
+
+  // Set mhs = {'Dona', 'Martin', 'Gary', 'Windy'};
+  // // print(mhs);
+  // print("Nama saya (${mhs.elementAt(2)}");
+
+  //list = array index angka data[0]
+  //map = array index bebas
+
+  // Map mhs = {"nama": "Agus", "Umur": 30, "Prodi": "SI"};
+  // print(mhs['nama']);
+  // print("nama saya ${mhs['nama']}, umur saya ${mhs['Umur'], "});
+
+//   List<Map<String, Object>> pasar = [{"nama":"cabe", "harga":10000, "Stok":30}, {"nama":"Kopi A", "harga":300000, "Stok":100}, {"nama":"gula", "harga":20000, "Stok":10}, {"nama":"bawang", "harga":100000, "Stok":10},
+//  { "nama":"bubuk teh", "harga":15000, "Stok":200}];
+//   // print("nama produk ${pasar['']}, dengan harga ${pasar[0]}, stok sisa ${pasar[0]}");
+//  print("nama produk ${pasar.elementAt(0)['nama']}, dengan harga ${pasar.elementAt(0)['harga']}, stok sisa ${pasar.elementAt(0)['Stok']}");
+  // List pasar = [
+  //   {"nama": "cabe", "harga": 10000, "Stok": 30},
+  //   {"nama": "Kopi A", "harga": 300000, "Stok": 100},
+  //   {"nama": "gula", "harga": 20000, "Stok": 10},
+  //   {"nama": "bawang", "harga": 100000, "Stok": 10},
+  //   {"nama": "bubuk teh", "harga": 15000, "Stok": 200}
+  // ];
+  // print(pasar[0]['nama']);
+
+  List pasar = [];
+  Map data1 = {"nama": "cabe", "harga": 10000, "Stok": 30};
+  Map data2 = {"nama": "Kopi A", "harga": 300000, "Stok": 100};
+  Map data3 = {"nama": "gula", "harga": 20000, "Stok": 10};
+  Map data4 = {"nama": "bawang", "harga": 100000, "Stok": 10};
+  Map data5 = {"nama": "bubuk teh", "harga": 15000, "Stok": 200};
+  pasar.add(data1);
+  pasar.add(data2);
+  pasar.add(data3);
+  pasar.add(data4);
+  pasar.add(data5);
+  print(pasar[0]['nama']);
+
 }
